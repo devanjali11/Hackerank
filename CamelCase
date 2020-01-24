@@ -1,0 +1,8 @@
+i=input().strip()
+c=1
+for m in i:
+    if m.isupper():
+        c=c+1
+print(c)
+
+
