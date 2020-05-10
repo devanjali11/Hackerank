@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin>> n;
+    int sume=0,sumodd=0;
+    while(n>0)
+    {
+        int s=n%10;
+        
+        if(s%2==0)
+        {
+            sume=sume+s;
+            
+        }
+        else{
+            
+            sumodd=sumodd+s;
+             
+        }
+        n=n/10;
+    }
+        
+        cout<<sume<<" "<<sumodd;
+    
+    return 0;
+
+
+}
